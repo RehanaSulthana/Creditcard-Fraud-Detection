@@ -1,0 +1,16 @@
+Context
+With the rise of digital payments and e-commerce, credit card transactions have become an integral part of everyday life. However, this convenience comes with a growing risk of fraud. Detecting fraudulent transactions is a critical task for financial institutions to ensure customer safety and minimize financial loss. Real-time, accurate fraud detection systems help prevent unauthorized purchases and maintain the integrity of payment platforms.
+
+Dataset Link
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+Content
+This dataset contains anonymized credit card transactions carried out by European cardholders over two days in September 2013. Out of 284,807 total transactions, only 492 were labeled as fraudulent, making this a highly imbalanced classification problem. The fraudulent cases account for just 0.172% of the data, which reflects real-world fraud detection challenges.
+
+All features in the dataset, except Time and Amount, are the result of a Principal Component Analysis (PCA) transformation to protect confidentiality. Variables V1 through V28 are the principal components. The Time column represents the seconds elapsed between each transaction and the first transaction in the dataset. The Amount column refers to the monetary value of the transaction. The Class column is the target variable, with 1 indicating fraud and 0 representing a legitimate transaction.
+
+Inspiration
+The primary goal is to develop machine learning models that can effectively identify fraudulent credit card transactions with high recall and precision, especially considering the significant class imbalance. This problem allows us to explore various techniques such as undersampling, oversampling, cost-sensitive learning, and anomaly detection.
+
+Given the rarity of fraudulent transactions, traditional accuracy metrics are not sufficient. Therefore, the Area Under the Precision-Recall Curve (AUPRC) is recommended for evaluating model performance. This helps ensure the system minimizes false negatives — missed frauds — while maintaining a manageable number of false positives.
+
