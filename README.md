@@ -4,7 +4,7 @@ Author : Shaik Rehana Sulthana            &emsp;  Email : shaikrehanasulthana5@g
 This is a Kaggle Credit Card Fraud Detection : Anonymized credit card transactions labeled as fraudulent or genuine - Credit Card Fraud Detection. The objective of the project is to perform data visulalization techniques to understand the insight of the data. Machine learning often required to getting the understanding of the data and its insights. This project aims apply various Python tools to get a visual understanding of the data and clean it to make it ready to apply machine learning opertation on it.  <br>
 
 **Installation**<br>
-This is a Google Colab notebook. Package requirements are included in requirement.txt. This project uses Python. Run the following command in terminal to install the required packages. pip3 install -r requirements.txt. <br>
+This is a Google Colab notebook. Package requirements are included in requirements.txt. This project uses Python. Run the following command in terminal to install the required packages. pip3 install -r requirements.txt. <br>
 
 **Usage**<br>
 The notebook includes all the markdowns which explain the process.
